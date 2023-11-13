@@ -1,7 +1,7 @@
 "use client"
 
 import { MetaMaskProvider } from "@metamask/sdk-react";
-import { ConnectWalletButton } from "@/components/ConnectWalletButton";
+import { ConnectWalletButton } from "../components/ConnectWalletButton";
 
 export default function Home() {
   const host =

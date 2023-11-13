@@ -1,6 +1,6 @@
 import { useSDK } from "@metamask/sdk-react";
 import { formatAddress } from "../lib/utils";
-import WalletIcon from "@/components/Icons/WalletIcon";
+import WalletIcon from "./Icons/WalletIcon";
 
 export const ConnectWalletButton = () => {
   const { sdk, connected, connecting, account } = useSDK();
