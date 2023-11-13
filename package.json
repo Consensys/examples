@@ -12,10 +12,10 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "examples",
+  "name": "@consensys/examples",
   "packageManager": "npm@10.1.0",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "metamask-sdk-example/*",
+    "next-infura-gas-api/*"
   ]
 }
